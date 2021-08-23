@@ -1,0 +1,3 @@
+[submodule "mockapi"]
+	path = mockapi
+	url = https://github.com/migueltanada/mockapi.git
