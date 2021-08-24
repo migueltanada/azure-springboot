@@ -96,7 +96,7 @@ Services that will be used
     # this login expires after a few hours, if you will be using az commands the following day, you will have to login again
 
     #these commands are available by clicking on Connect in your azure portal -- kubernetes service UI
-    az account set --subscription <subscription id>
+    az account set --subscription <subscription-id>
     az aks get-credentials --resource-group demo --name demo-aks
     ```
     ![azure screenshot](ss/ak11.JPG)
@@ -179,15 +179,16 @@ Services that will be used
 1. Once you get the mail saying your APIM is ready/active, you can opn your azure portal and go to API Management
 
 1. Click on springmockapi > API > Add > OpenApi Specification > Fill up the fields
-    - upload swagger.json from the repository you have cloned``./mockap/swagger.json``
-    - summary:
-    - description:
+    - OpenAPI specification: upload swagger.json from the repository you have cloned``./mockap/swagger.json``
+    - display name: mockapi
 
     ![azure_screenshot](ss/am5.JPG)
 
-1. visit apiurl (make sure you are in http)
+    ![azure_screenshot](ss/am6.JPG)
 
+1. Test the APi using test tab in azure portal
 
+    ![azure_screenshot](ss/am7.JPG)
 
 
 
