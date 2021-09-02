@@ -1,9 +1,9 @@
+[submodule "authentication"]
+	path = authentication
+	url = https://github.com/migueltanada/authentication.git
+[submodule "messaging"]
+	path = messaging
+	url = https://github.com/migueltanada/messaging.git
 [submodule "mockapi"]
 	path = mockapi
 	url = https://github.com/migueltanada/mockapi.git
-[submodule "service-bus-recieve"]
-	path = service-bus-recieve
-	url = https://github.com/migueltanada/service-bus-recieve
-[submodule "service-bus-send"]
-	path = service-bus-send
-	url = https://github.com/migueltanada/service-bus-send
